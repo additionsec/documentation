@@ -1,0 +1,23 @@
+site_name: Addition Security 
+theme: flatly
+pages:
+- Home: 'index.md'
+- MobileAwareness SDK:
+  - 'MobileAwareness SDK IOS Developer Guide': 'ASMA_IOS_DeveloperGuide.md'
+  - 'MobileAwareness SDK IOS C/Obj-C/Swift API Reference': 'ASMA_IOS_Api.md'
+  - 'MobileAwareness SDK Android Developer Guide': 'ASMA_Android_DeveloperGuide.md'
+  - 'MobileAwareness SDK Android Java API Reference': 'ASMA_Android_Java_Api.md'
+  - 'MobileAwareness SDK Android C/C++ API Reference': 'ASMA_Android_Native_Api.md'
+  - 'MobileAwareness Plugin for Kony': 'ASMA_Kony.md'
+  - 'MobileAwareness SDK Messages Reference': 'ASMA_Messages.md'
+- Messaging Gateway:
+  - 'Operations & Configuration Guide': 'ASGW_Operations_Guide.md'
+
+copyright: Copyright &copy; 2016 <a href="https://www.additionsecurity.com/">Addition Security, Inc.</a>
+
+markdown_extensions:
+  - toc:
+      baselevel: 1
+
+extra_css:
+  - css/custom.css
